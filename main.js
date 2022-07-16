@@ -7,14 +7,19 @@
 dailyProduction = (shedA+shedB+shedC+shedD);
 weeklyProduction = (dailyProduction * 7);
 monthlyProduction = (weeklyProduction * 4);
-console.log(monthlyProduction);
-incomeOverTime();
 
-function incomeOverTime() {
-    let buyingPrice = prompt("Enter buying price: ");
-    var monthlyIncome = monthlyProduction * buyingPrice;
-    console.log(monthlyIncome);
 
+function incomeOverAmonth(buyingPrice) {
+    if(buyingPrice == 1) {
+        return buyingPrice;
+    }
+    else{
+        return buyingPrice * monthlyProduction(buyingPrice)
+    }
+console.log(incomeOverAmonth)
 }
+
+
+
 
 
