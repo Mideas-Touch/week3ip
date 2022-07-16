@@ -1,4 +1,4 @@
-# week3 indpendent project
+# week3 independent project
 
 Title: Dairy Farm Automation
 
