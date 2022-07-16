@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
+body{
+    background-color: rgb(158, 88, 38);
+}
+
+.home{
+    width: 50%;
+    height: 3vh;
+
+}
+
+#dailytotal{
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    height: 3vh;
+    /* margin: auto; */
+    padding: 10px;
+}
+
+.homecol h{
+    font-family: "Inter", 'sans-serif';
+    font-size: 24px;
+
+}
