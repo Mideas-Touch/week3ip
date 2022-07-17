@@ -1,3 +1,4 @@
+// alert("You have 1 pending tasks")
 
     var shedA = 300;
     var shedB = 250;
@@ -19,7 +20,8 @@ function incomeOverAmonth(buyingPrice) {
 console.log(incomeOverAmonth)
 }
 
-const
+const body = document.body
+
 
 
 

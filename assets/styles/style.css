@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 body{
-    background-color: rgb(158, 88, 38);
+    background-color: #E4D8B4;
 }
 
 .home{
@@ -10,19 +10,72 @@ body{
 
 }
 
+nav{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 50vh;
+}
+
+li{
+    list-style: none;
+    font-family: "Poppins", 'Inter';
+}
+
+#pending{
+    margin: auto;
+    display: flex;
+    align-content: center;
+    max-width: 45%;
+    height: 4vh;
+}
+
+#pending >first-child{
+    font-size: 24px;
+    color: #ffffff;
+}
+
 #dailytotal{
     box-sizing: border-box;
     position: relative;
-    width: fit-content;
+    top: 50px;
+    width: 300px;
     height: 3vh;
     /* margin: auto; */
     padding: 10px;
+}
+#bookicon{
+    margin: auto;
+    top: 20px;
+}
+
+.accounts{
+    display:grid;
+    grid-template-columns: 50px;
+    grid-template-rows: 20px 20px 20px;
+    justify-content: start;
+    position: relative;
+    top: 100px;
 }
 
 .homecol h{
     font-family: "Inter", 'sans-serif';
     font-size: 24px;
 
+}
+
+#submitbutton{
+    background-color: #ffffff;
+    
+}
+
+#submitbutton:hover{
+   cursor:pointer; 
+   background-color: #C2B28F;
+   transition: 0.2s ease-in-out;
+    
 }
 
 /* .summaries{

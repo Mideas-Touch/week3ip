@@ -13,9 +13,23 @@
         <div class="row">
             <div class="homecol">
                 <h>Jay's Dairy</h>
+                <nav>
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Inventory</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
             </div>
             <div id="page-title">
                 <h>Financial Statements for 2021</h>
+
+            <div id="pending">
+                <i class="fa-solid fa-circle"></i><i class="fa-solid fa-1"></i>
+                <li><a href="#">View pending task</a></li>
+            </div>
     </div>
 
     <div class="productionstats">
@@ -30,18 +44,21 @@
                     <input type="number" id="shed3" name="shed3"><br>
                     <label for="shed4">Shed D:</label><br>
                     <input type="number" id="shed4" name="shed4"><br>
-                    <input type="submit" value="Submit">
                 </form>
+            <button id="submitbutton" type="button">Submit</button>
 
             <div id="dailytotal">Daily Total</div>
     </div>
 
-    <div class="accounts"><i class="fa-solid fa-book"></i>
+    <div class="accounts">
         <div class="row">
+            <i id="bookicon" class="fa-solid fa-book"></i>
             <div class="homecol">
                 <h>Accounts</h>
-                <div id="7day">Weekly Income</div>
-                <div id="yearly">Yearly Income</div>
+                <ul>
+                    <li><a href="#">Weekly Income</a></li>
+                    <li><a href="#">Yearly Income</a></li>
+                </ul>
 
     </div>
 
