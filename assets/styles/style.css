@@ -19,8 +19,13 @@ body{
 #page-title{
     box-sizing: border-box;
     position: relative;
-    padding: 10px;
+    top: 5vh;
+    /* width: 100%;
+    height: 350px;
+    padding: 10px; */
     font-family: "Inter", 'sans-serif';
+    text-align: left;
+    word-spacing: 5px;
     font-size: 18px;
     font-weight: 700;
      
@@ -63,13 +68,53 @@ li{
     font-family: "Poppins", 'Inter';
 }
 
-#pending{
+/* #pending{
     margin: auto;
     display: flex;
     align-content: center;
     max-width: 45%;
     height: 4vh;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 6vh;
+    max-width: 20%;
+    justify-content: space-around;
 }
+
+#homecol{
+    position: relative;
+    top: 10px;
+    font-family: "Inter", 'sans-serif';
+    text-align: left;
+    font-size: 18px;
+
+
+}
+
+#dailytotal{
+    width: 20px;
+}
+#submitbutton{
+    font-family: "Poppins", 'sans-serif';
+    font-weight: 700;
+    font-size: 12pt;
+    background-color: #ffffff;
+    color:#272324;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+}
+
+#submitbutton:hover{
+    cursor:pointer; 
+    background-color: #C2B28F;
+    transition: 0.2s ease-in-out;
+     
+ }
 
 #pending >first-child{
     font-size: 24px;
@@ -84,10 +129,6 @@ li{
     height: 3vh;
     /* margin: auto; */
     padding: 10px;
-}
-#bookicon{
-    margin: auto;
-    top: 20px;
 }
 
 .accounts{
@@ -105,17 +146,6 @@ li{
 
 }
 
-#submitbutton{
-    background-color: #ffffff;
-    
-}
-
-#submitbutton:hover{
-   cursor:pointer; 
-   background-color: #C2B28F;
-   transition: 0.2s ease-in-out;
-    
-}
 
 /* .summaries{
     display: flex;
