@@ -19,7 +19,7 @@ function incomeOverAmonth(buyingPrice) {
 console.log(incomeOverAmonth)
 }
 
-
+const
 
 
 

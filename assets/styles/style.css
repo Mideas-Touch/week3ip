@@ -24,3 +24,11 @@ body{
     font-size: 24px;
 
 }
+
+/* .summaries{
+    display: flex;
+} */
+#months{
+    display: flex;
+    list list-style: none;
+}
