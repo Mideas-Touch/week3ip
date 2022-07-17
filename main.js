@@ -22,6 +22,23 @@
 
 // const body = document.body
 
+// const shedA = document.append("250")
+// console.log(shedA)
 
+
+
+function checkLeap(year) {
+    if ((0 == year%4) && (0 != year/100) || (0 == year%400)) {
+        const leapIncome = 366*buyingPrice
+        console.log('You will make' + leapIncome + '' + 'in' + '' +year);
+    } else {
+        console.log(year + 'is not a leap year');
+    }
+}
+
+const year = prompt('Enter a year:');
+buyingPrice = 45
+
+checkLeap(year);
 
 
