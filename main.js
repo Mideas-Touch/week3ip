@@ -20,10 +20,14 @@
 // console.log(incomeOverAmonth)
 // }
 
-// const body = document.body
+const body = document.body
+const buttonTwo = document.getElementById("submitbutton2")
+buttonTwo.addEventListener(click, checkLeap)
 
 // const shedA = document.append("250")
 // console.log(shedA)
+
+onclick
 
 function dailyProduction() {
     var first = document.getElementById("shed1");
