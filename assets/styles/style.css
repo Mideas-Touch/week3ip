@@ -124,3 +124,19 @@ li{
     display: flex;
     list-style: none;
 }
+
+#months {
+    width: 50%;
+    height: 200px;
+
+}
+
+
+table, th, td {
+    border: 1px #272324;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px;
+}
