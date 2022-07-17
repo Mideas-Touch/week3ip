@@ -120,21 +120,27 @@ li{
 /* .summaries{
     display: flex;
 } */
-#months{
-    display: flex;
-    list-style: none;
+
+.summaries h{
+    display: inline-block;
+    text-align: left;
+    width: 30vw;
+    padding: 10px;
 }
-
-#months {
-    width: 50%;
-    height: 200px;
-
-}
-
-
-table, th, td {
+table, td{
+    background-color: #C2B28F;
     border: 1px #272324;
     border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+    font-family: "Poppins", 'sans-serif';
+    color:rgb(39, 35, 36, 0.5)
+}
+
+th{
+    font-size: 24px;
+    color: #272324;
+    
 }
 
 th, td{
