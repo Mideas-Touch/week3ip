@@ -37,7 +37,7 @@ function checkLeap(year) {
 }
 
 const year = prompt('Enter a year:');
-buyingPrice = 45
+const buyingPrice = prompt("Enter current buying price:")
 
 checkLeap(year);
 
