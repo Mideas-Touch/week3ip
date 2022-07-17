@@ -46,18 +46,20 @@ function dailyProduction() {
 
 
 function checkLeap(year) {
+const year = prompt('Enter a year:');
+const buyingPrice = prompt("Enter current buying price:")
+
     if ((0 == year%4) && (0 != year/100) || (0 == year%400)) {
         const leapIncome = 366*buyingPrice
         let feedback1 = ('You will make' + leapIncome + '' + 'in' + '' +year);
         document.getElementById("displayleap").innerHTML = feedback1;
     } else {
-        console.log(year + 'is not a leap year');
+        let feedback2 = (year + 'is not a leap year');
+        document.getElementById("displayleap").innerHTML = feedback2;
     }
 }
 
-const year = prompt('Enter a year:');
-const buyingPrice = prompt("Enter current buying price:")
 
-checkLeap(year);
+
 
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 body{
-    background-color: #E4D8B4;
+    background-color: #f0e3bb;
 }
 
 .home{
@@ -10,10 +10,33 @@ body{
 
 }
 
-.homecol h{
+ul{
     font-family: "Inter", 'sans-serif';
-    font-size: 30px;
+    font-size: 18pt;
+    color: #272324;
+}
+
+nav > li:hover{
+    cursor:pointer; 
+    background-color: #272324;
+    transition: 0.2s ease-in-out;
+
+}
+#logo{
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Inter", 'sans-serif';
+    font-size: 32px;
     font-weight: 700;
+    border-bottom: 10px #83B799;
+}
+
+
+.home h{
+    font-family: "Inter", 'sans-serif';
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 10px ;
 }
 
 #page-title{
@@ -34,6 +57,8 @@ nav {
     display: block;
     flex-direction: column;
     position: relative;
+    line-height: .5in;
+    text-align: center;
     background-color: #83B799;
     float: left;
     font-family: "Inter", 'sans-serif';
