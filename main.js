@@ -22,7 +22,7 @@
 
 const body = document.body
 const buttonTwo = document.getElementById("submitbutton2")
-buttonTwo.addEventListener(click, checkLeap)
+buttonTwo.addEventListener(click, checkLeap);
 
 // const shedA = document.append("250")
 // console.log(shedA)
@@ -48,7 +48,8 @@ function dailyProduction() {
 function checkLeap(year) {
     if ((0 == year%4) && (0 != year/100) || (0 == year%400)) {
         const leapIncome = 366*buyingPrice
-        console.log('You will make' + leapIncome + '' + 'in' + '' +year);
+        let feedback1 = ('You will make' + leapIncome + '' + 'in' + '' +year);
+        document.getElementById("displayleap").innerHTML = feedback1;
     } else {
         console.log(year + 'is not a leap year');
     }
