@@ -78,7 +78,7 @@ dairyform.addEventListener('submit', result =>{
     document.getElementById("Month2").style.display='block';
 
     let March = DayTotal * 31 * 45;
-    const MarchIncome = Month1.innerHTML = `Total income for March is ${March}`;
+    const MarchIncome = Month3.innerHTML = `Total income for March is ${March}`;
     document.getElementById("Month3").style.display='block';
 
     let April = DayTotal * 30 * 45;
