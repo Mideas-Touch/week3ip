@@ -58,14 +58,77 @@ dairyform.addEventListener('submit', result =>{
 
     dailyresult1.innerHTML = `Your production in shed A is ${daily1} litres per day`
     dailyresult2.innerHTML = `Your production in shed B is ${daily2} litres per day`
-    dailyresult3.innerHTML = `Your production in shed C is ${daily3} 
-    litres per day`
+    dailyresult3.innerHTML = `Your production in shed C is ${daily3} litres per day`
     dailyresult4.innerHTML = `Your prodution in shed C is ${daily4} litres per day`
 
 
     let DayTotal = daily1+daily2+daily3+daily4;
 
     const wholeDay = totalresult.innerHTML = `Total daily production is ${DayTotal} litres per day`
+
+
+
+
+    let January = DayTotal * 31 * 45;
+    const janIncome = Month1.innerHTML = `Total income for January is ${January}`;
+    document.getElementById("Month1").style.display='block';
+
+    let February = DayTotal * 28 * 45;
+    const FebIncome = Month2.innerHTML = `Total income for February is ${February}`;
+    document.getElementById("Month2").style.display='block';
+
+    let March = DayTotal * 31 * 45;
+    const MarchIncome = Month1.innerHTML = `Total income for March is ${March}`;
+    document.getElementById("Month3").style.display='block';
+
+    let April = DayTotal * 30 * 45;
+    const AprilIncome = Month4.innerHTML = `Total income for April is ${April}`;
+    document.getElementById("Month4").style.display='block';
+
+    let May = DayTotal * 31 * 45;
+    const MayIncome = Month5.innerHTML = `Total income for May is ${May}`;
+    document.getElementById("Month5").style.display='block';
+
+    let June = DayTotal * 31 * 45;
+    const junIncome = Month6.innerHTML = `Total income for June is ${June}`;
+    document.getElementById("Month6").style.display='block';
+
+    let July = DayTotal * 31 * 45;
+    const julIncome = Month7.innerHTML = `Total income for July is ${July}`;
+    document.getElementById("Month1").style.display='block';
+
+    let August = DayTotal * 31 * 45;
+    const AugIncome = Month8.innerHTML = `Total income for August is ${August}`;
+    document.getElementById("Month8").style.display='block';
+
+    let september = DayTotal * 31 * 45;
+    const septIncome = Month9.innerHTML = `Total income for September is ${september}`;
+    document.getElementById("Month9").style.display='block';
+
+    let october = DayTotal * 31 * 45;
+    const octIncome = Month10.innerHTML = `Total income for October is ${october}`;
+    document.getElementById("Month10").style.display='block';
+
+    let November = DayTotal * 30 * 45;
+    const NovIncome = Month11.innerHTML = `Total income for November is ${November}`;
+    document.getElementById("Month11").style.display='block';
+
+    let December = DayTotal * 31 * 45;
+    const DecIncome = Month12.innerHTML = `Total income for December is ${December}`;
+    document.getElementById("Month1").style.display='block';
+
+
+
+    
+
+    // let february = DayTotal * 28 * 45;
+    // const febIncome = Month2.innerHTML = `Total income for February is ${february}`;
+    // document.getElementById("Month2").style.display='block';
+
+
+
+
+    
 
     // document.getElementById(totalresult).innerHTML=`Total production for the day is ${DayTotal}`;
 
@@ -74,6 +137,45 @@ dairyform.addEventListener('submit', result =>{
     document.getElementById("dailyresult3").style.display='block';
     document.getElementById("dailyresult4").style.display='block';
     document.getElementById("DayTotal").style.display='block';
+
+    
+    
+
+ 
+    // let feb = document.getElementById("feb")
+    // let mar = document.getElementById("mar")
+    // let apr = document.getElementById("apr")
+    // let may = document.getElementById("may")
+    // let jun = document.getElementById("jun")
+    // let jul = document.getElementById("jul")
+    // let aug = document.getElementById("aug")
+    // let sept = document.getElementById("sept")
+    // let oct = document.getElementById("oct")
+    // let nov = document.getElementById("nov")
+    // let dec = document.getElementById("dec")
+
+   
+
+
+    // document.getElementById("feb").style.display='block'
+    // document.getElementById("mar").style.display='block'
+    // document.getElementById("apr").style.display='block'
+    // document.getElementById("may").style.display='block'
+    // document.getElementById("jun").style.display='block'
+    // document.getElementById("jul").style.display='block'
+    // document.getElementById("aug").style.display='block'
+    // document.getElementById("sept").style.display='block'
+    // document.getElementById("oct").style.display='block'
+    // document.getElementById("nov").style.display='block'
+    // document.getElementById("dec").style.display='block'
+
+
+    // weeklyIncome.innerHTML = `Your weekly Income will average ${weeklyProduction}`
+
+// function weeklyProduction(DayTotal, price) {
+//     weeklyIncome
+
+// }
 
 
 })
