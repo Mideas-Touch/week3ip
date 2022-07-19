@@ -20,15 +20,36 @@
 // console.log(incomeOverAmonth)
 // }
 
-const body = document.body;
-const buttonOne = document.getElementById("submitbutton1");
-buttonOne.addEventListener(click, dailyProduction);
 
-const buttonTwo = document.getElementById("submitbutton2");
-buttonTwo.addEventListener(click, checkLeap);
+
+
+// const buttonOne = document.getElementById("submitbutton1");
+// buttonOne.addEventListener(click, dailyProduction);
+
+// const buttonTwo = document.getElementById("submitbutton2");
+// buttonTwo.addEventListener(click, checkLeap);
+
+
 
 // const shedA = document.append("250")
 // console.log(shedA)
+
+
+const firstshed = document.getElementById("Shed1");
+const secondshed = document.getElementById("Shed2");
+const thirdshed = document.getElementById("Shed3");
+const fourthshed = document.getElementById("Shed4")
+const dataform = document.getElementById("form1")
+
+
+let weeklyProduction = document.getElementById(WeeklyIncome)
+
+
+
+
+
+
+
 
 
 
