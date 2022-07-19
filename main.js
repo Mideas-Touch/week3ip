@@ -44,7 +44,7 @@ const dataform = document.getElementById("form1")
 
 let weeklyProduction = document.getElementById(WeeklyIncome)
 
-
+dataform.addEventListener('submit' )
 
 
 
