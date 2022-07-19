@@ -40,20 +40,26 @@
     <div class="productionstats">
         <div class="row">
             <div class="homecol">
-                <form action="/actionpage.php">
-                    <label for="shed1">Shed A:</label><br>
-                    <input type="number" id="shed1" name="shed1"><br>
-                    <label for="shed2">Shed B:</label><br>
-                    <input type="number" id="shed2" name="shed2"><br>
-                    <label for="shed3">Shed C:</label><br>
-                    <input type="number" id="shed3" name="shed3"><br>
-                    <label for="shed4">Shed D:</label><br>
-                    <input type="number" id="shed4" name="shed4"><br>
+
+                <form id="form1" >
+                    <div>
+                        <label for="shed1">Shed A:</label>
+                        <input type="number" id="shed1" class="shed1">
+                    </div>
+                    <div>
+                        <label for="shed2">Shed B:</label>
+                        <input type="number" id="shed2" class="shed2">
+                    </div>
+                    <div>
+                        <label for="shed3">Shed C:</label>
+                        <input type="number" id="shed3" class="shed3">
+                    </div>
+                    <div>
+                        <label for="shed4">Shed D:</label>
+                        <input type="number" id="shed4" class="shed4">
+                    </div>
+                    <button class="submitbutton" type="submit">Submit</button>
                 </form>
-            <button id="submitbutton" type="button">Submit</button>
-            <div class="row">
-                <div class="homecol">
-                    <input type="number" id="dailytotal" placeholder="Daily Total"><br>
             </div>
 
     </div>

@@ -20,14 +20,17 @@
 // console.log(incomeOverAmonth)
 // }
 
-const body = document.body
-const buttonTwo = document.getElementById("submitbutton2")
+const body = document.body;
+const buttonOne = document.getElementById("submitbutton1");
+buttonOne.addEventListener(click, dailyProduction);
+
+const buttonTwo = document.getElementById("submitbutton2");
 buttonTwo.addEventListener(click, checkLeap);
 
 // const shedA = document.append("250")
 // console.log(shedA)
 
-onclick
+
 
 function dailyProduction() {
     var first = document.getElementById("shed1");
@@ -40,14 +43,16 @@ function dailyProduction() {
         text += first.elements[i].value;
     }
 
-    console.log(first)
+    let totalProduction = first + second + third + fourth;
+
+    document.getElementById("dailytotal").innerHTML = totalProduction
 }
 
 
 
 function checkLeap(year) {
-const year = prompt('Enter a year:');
-const buyingPrice = prompt("Enter current buying price:")
+    const year = prompt('Enter a year:');
+    const buyingPrice = prompt("Enter current buying price:")
 
     if ((0 == year%4) && (0 != year/100) || (0 == year%400)) {
         const leapIncome = 366*buyingPrice
@@ -55,7 +60,7 @@ const buyingPrice = prompt("Enter current buying price:")
         document.getElementById("displayleap").innerHTML = feedback1;
     } else {
         let feedback2 = (year + 'is not a leap year');
-        document.getElementById("displayleap").innerHTML = feedback2;
+        document.getElementById("displayleap").style.display = feedback2;
     }
 }
 
