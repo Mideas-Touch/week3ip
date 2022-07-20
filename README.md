@@ -2,8 +2,6 @@
 
 Title: Dairy Farm Automation
 
-# Portfolio
-
 ##### By Wycliffe Ndung'u 
 ###
 
